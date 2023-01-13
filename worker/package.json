@@ -1,0 +1,21 @@
+{
+  "name": "code-docu",
+  "version": "1.0.0",
+  "description": "Edge API for the CodeDocu plugin",
+  "main": "./CodeDocu/codedocu.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kindaraffy",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@haverstack/axios-fetch-adapter": "^0.5.0",
+    "openai": "^3.1.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
